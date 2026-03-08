@@ -1,0 +1,38 @@
+/* oc-shop Storefront Styles */
+
+/* Smooth transitions */
+a { transition: color 0.2s; }
+.card { transition: box-shadow 0.2s; }
+.card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.15) !important; }
+
+/* Product image placeholder */
+.product-img-placeholder {
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dee2e6;
+    font-size: 3rem;
+}
+
+/* Star rating */
+.rating .bi-star-fill { color: #ffc107; }
+.rating .bi-star      { color: #dee2e6; }
+
+/* Cart badge pulse */
+#cart-count {
+    font-size: 0.65rem;
+    min-width: 18px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Breadcrumb */
+.breadcrumb { font-size: 0.875rem; }
+
+/* Pagination */
+.pagination { justify-content: center; }
